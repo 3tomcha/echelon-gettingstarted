@@ -9,6 +9,7 @@
   },
   "scripts": {
     "build": "tsc",
-    "dev": "tsc & node dist/main.js "
+    "dev": "tsc & node dist/main.js ",
+    "panora": "tsc & node dist/panora.js "
   }
 }
