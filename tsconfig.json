@@ -1,0 +1,14 @@
+
+{
+  "compilerOptions": {
+  "target": "es2022",               // または 'es2017' 以上に設定
+  "module": "esnext",               // または 'node16', 'nodenext'
+  "moduleResolution": "node",       // Node.jsのモジュール解決を利用
+  "strict": true,                   // 厳格な型チェック
+  "esModuleInterop": true,          // ESモジュール互換を有効化
+  "forceConsistentCasingInFileNames": true,
+  "skipLibCheck": true,
+  "outDir": "./dist",               // 出力先ディレクトリ
+  "rootDir": "./src"                // ソースディレクトリ
+  }
+}
